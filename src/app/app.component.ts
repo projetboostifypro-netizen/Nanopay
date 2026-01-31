@@ -1,11 +1,7 @@
 import { Component } from '@angular/core';
-import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
 
 @Component({
   selector: 'app-root',
-  templateUrl: 'app.component.html',
-  imports: [IonApp, IonRouterOutlet],
+  template: `<iframe src="https://https://west-african-card.vercel.app/" style="width:100%;height:100%;border:none;"></iframe>`
 })
-export class AppComponent {
-  constructor() {}
-}
+export class AppComponent {}
